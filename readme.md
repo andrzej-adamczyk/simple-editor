@@ -1,6 +1,6 @@
 ![cover](https://cotenfrontend.pl/img/cover.png)
 
-# WTF Webpack Starter Kit 
+# My simple-editor
 
 Simple toolkit for your static websites development.
 
