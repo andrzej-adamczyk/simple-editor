@@ -1,13 +1,45 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+// @import "modules/hello.scss";
 
 body {
-  background: $wtf;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  background: $wtf;
+  color: #fff;
+
   min-height: 100vh;
+}
+
+.header {
+  justify-content: flex-end;
+}
+
+.textarea {
+  height: 38vh;
+  width: 35.5vw;
+  border-radius: 5%;
+  border-style: none;
+  padding: 10px 10px;
+  resize: none;
+}
+
+.buttons {
+  flex-direction: row;
+  justify-content: space-between;
+  &__blue {
+    background-color: blue;
+    color: white;
+  }
+  &__green {
+    background-color: green;
+    color: white;
+  }
+  &__yellow {
+    background-color: yellow;
+    color: black;
+  }
 }
